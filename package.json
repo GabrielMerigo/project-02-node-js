@@ -1,0 +1,20 @@
+{
+  "name": "project-02-node-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx tsx --watch src/server.ts",
+    "knex": "node --no-warnings --loader tsx ./node_modules/.bin/knex"
+  },
+  "dependencies": {
+    "fastify": "^4.17.0",
+    "knex": "^2.4.2",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  }
+}
